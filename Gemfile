@@ -39,3 +39,6 @@ gem 'jquery-rails'
 
 # Authlogic login implementation
 gem 'authlogic', :git => 'git://github.com/binarylogic/authlogic.git'
+
+gem 'simple_form'
+

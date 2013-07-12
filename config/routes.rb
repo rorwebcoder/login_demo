@@ -10,7 +10,8 @@ LoginDemo::Application.routes.draw do
 
   match 'signup' => 'users#new', :as => :signup
 
-  root :to => 'users#new'
+  #~ root :to => 'users#new'
+  root :to => 'user_sessions#new'
   
   # The priority is based upon order of creation:
   # first created -> highest priority.
