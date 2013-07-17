@@ -17,7 +17,7 @@ LoginDemo::Application.configure do
   # Don't fallback to assets pipeline if a precompiled asset is missed
   config.assets.compile = true
   
-  config.assets.precompile += %w( bootstrap.css bootstrap-responsive.css bootstrap.js )
+  #~ config.assets.precompile += %w( bootstrap.css bootstrap-responsive.css bootstrap.js )
 
   # Generate digests for assets URLs
   config.assets.digest = true
